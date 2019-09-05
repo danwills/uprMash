@@ -19,3 +19,7 @@ I have always wanted to see what it would look like to motion blur a fractal as 
 It's also a nice departure from the rather digital artifact of being perfectly in focus everywhere. I am also interested in setting up some fractals with parameter-focal blur (aka Depth-of-Field) but I'll leave that for a future project :D
 
 I am comitting it to gitHub because I noticed that the wiki is getting some traffic and only the py2exe (for windows) conversion is available.. hopefully making the source available will make it more useful to anyone wanting to play with it.
+
+Wow, it's 2019 now, and I still think that over-sampling a fractal as its parameters vary and essentially motion-blurring (or ~accumulating?) the result is still a really interesting idea that I haven't seen explored much. This could definitely have potential as an idea to build a (glsl?) fragment shader or openCL-subsystem to get all the operations done (these days) in massive-parallel on the GPU. I think this could lead to some really interesting renderings!.
+
+If anyone is interested to help to build a translation-tool that might help to bring the actual evaulation of UPR fractals into a GPU-shader context, I'm really interested to hear from you! :D
